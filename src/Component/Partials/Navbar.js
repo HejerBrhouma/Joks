@@ -1,18 +1,14 @@
 import React, { useState, useEffect } from "react";
 
 function Navbar() {
-	return (
-		<div 
-            className="App" 
-            style={{border: "solid"}}
-        >
-			<ul>
-                <li>Test</li>
-                <li>Test</li>
-                <li>Test</li>
-            </ul>
-		</div>
-	);
+    return (
+        <div className="App navv">
+            <div class="text-nav">
+                <a className="navurl" href="#">SO FUNKTIONIERT'S</a>
+                <a className="navurl" href="#">SONDERANGEBOTE</a>
+                <a className="navurl" href="#">MEIN BEREICH</a></div>
+        </div>
+    );
 }
 
 export default Navbar;
