@@ -1,0 +1,116 @@
+body {
+  background-color: #e6e7da;
+}
+
+.joke-card {
+  color: white;
+  padding: 16px;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(122, 122, 122, 0.034) !important;
+}
+.btn-category{ 
+  padding:15px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:6px;
+  margin-bottom:6px;
+  color: white;
+  width:230px;
+  border: 2px solid #8b715730;}
+.joke-title-card {
+  width: 286px;
+  height: 20px;
+  margin: 0 0 6px 8px;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #303030;
+}
+
+.flex {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center !important;
+}
+
+.card {
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-border-width: 1px;
+  --bs-card-border-color: var(--bs-border-color-translucent);
+  --bs-card-border-radius: 0.375rem;
+  --bs-card-box-shadow: ;
+  --bs-card-inner-border-radius: calc(0.375rem - 1px);
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+  --bs-card-cap-color: ;
+  --bs-card-height: ;
+  --bs-card-color: ;
+  --bs-card-bg: #fff;
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-radius: var(--bs-card-border-radius);
+  width: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+
+.main {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  height: 320px;
+  row-gap: 20px;
+  background-image: url("../public/images/bitmap.png");
+}
+
+h1 {
+  margin: 10px;
+  font-size: 40px;
+  color: rgb(1, 1, 59);
+}
+
+.search {
+  width: 30%;
+  background-color: white;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+}
+
+ul li {
+  font-size: 10px;
+  background-color: white;
+  z-index: 1000;
+  
+}
